@@ -31,8 +31,11 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+
+
       <NewModuleButton/>
-  {/* <Text style={{fontSize:60,marginBottom:50}}>{count}</Text>
+
+  <Text style={{fontSize:60,marginBottom:50}}>{count}</Text>
 
 <View style={{flexDirection:'row'}}>
   <TouchableOpacity 
@@ -47,7 +50,7 @@ const App = () => {
   >
     <Text style={{fontSize:20}}>Decrease</Text>
   </TouchableOpacity>
-  </View> */}
+  </View>
     </View>
   );
 };

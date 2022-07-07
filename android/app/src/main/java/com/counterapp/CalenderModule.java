@@ -26,9 +26,11 @@ import java.util.HashMap;
 
      @ReactMethod
      public void createCalendarEvent(String name, String location) {
-         Log.d("CalendarModule", "Create event called with name: " + name
+         Log.d("CalenderModule", "Create event called with name: " + name
                  + " and location: " + location);
-         Toast.makeText(getReactApplicationContext(), "hhhhhhhhhhhhhhhhhhhhh", Toast.LENGTH_SHORT).show();
+
+       //  Toast.makeText(getReactApplicationContext(),"Hello world",Toast.LENGTH_LONG).show();
+
      }
 
 
